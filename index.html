@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="left box-container">
+            <div id="Brand">
+                <img src="./images/ai.png" alt="Cloud AI Logo" class="logo"> <!-- Replace with your actual logo image -->
+            </div>
+            <div class="mid-section">
+                <button id="new-chat-btn" class="side-btn">
+                    <img src="./images/edit-3.png" alt="" class="icon"> 
+                    New Chat
+                </button> 
+                <hr class="line1"/>
+                <button id="history-btn" class="side-btn">
+                    <img src="./images/history.png" alt="" class="icon"> <!-- Replace with your actual history icon -->
+                    View All History
+                </button>
+                <!-- ...other buttons... -->
+            </div>
+            <div class="profile-section">
+                <img class="pic" src="images/profile.jpeg" alt="profile">
+                <h4 class="name">Chelsy Mutua</h4>
+                <span>...</span>
+            </div>
+            
+            
+        </div>
+        <div class="right box-container">
+            <div class="chat-window">
+                <!-- Chat messages will appear here -->
+            </div>
+            <div class="input-area">
+                <input type="text" placeholder="Type your message..." class="input-field"/>
+                <button class="send-button"><img src="./images/message.png" alt="Send"/></button>
+            </div>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+</html>
